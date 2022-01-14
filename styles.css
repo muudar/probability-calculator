@@ -1,0 +1,51 @@
+/* *{
+    border: 2px solid red;
+} */
+
+.page{
+    height: 100vh;
+    width: 100%;
+}
+.top-page{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+
+.buttons{
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    font-size: 25px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
