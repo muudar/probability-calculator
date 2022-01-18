@@ -16,7 +16,12 @@ function addBall(event){
 
 
 function draw(){
-    if(balls.length == 0) return;
+    if(balls.length == 0){
+        const probabilityField = document.querySelector(".probability");
+        probabilityField.textContent = "Cannot draw before you add any balls!"
+        probabilityField.style.color = "red";
+        return;
+    }
     const drawnBall = document.querySelector(".drawnBallField");
     drawnBall.innerHTML = "";
     let r = Math.floor(Math.random() * (balls.length));
